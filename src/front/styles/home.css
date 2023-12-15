@@ -1,7 +1,37 @@
-/*
-    home.css: This website contains selectors only used in home.css
+.home-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+.welcome-text {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description-text {
+  color: #666;
+  margin-top: 10px;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+  margin-left: 10px;
+}
